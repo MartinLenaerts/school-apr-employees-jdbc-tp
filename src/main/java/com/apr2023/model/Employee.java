@@ -13,15 +13,15 @@ package com.apr2023.model;
 public class Employee {
 
     private String id;
-    private String name;
+    private String lastName;
     private String firstname;
     private String homePhone;
     private String mobilePhone;
-    private String proPhone;
+    private String workPhone;
     private String address;
     private String postalCode;
     private String city;
-    private String mail;
+    private String email;
 
     public String getId() {
         return id;
@@ -31,12 +31,12 @@ public class Employee {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getFirstname() {
@@ -63,12 +63,12 @@ public class Employee {
         this.mobilePhone = mobilePhone;
     }
 
-    public String getProPhone() {
-        return proPhone;
+    public String getWorkPhone() {
+        return workPhone;
     }
 
-    public void setProPhone(String proPhone) {
-        this.proPhone = proPhone;
+    public void setWorkPhone(String workPhone) {
+        this.workPhone = workPhone;
     }
 
     public String getAddress() {
@@ -95,12 +95,12 @@ public class Employee {
         this.city = city;
     }
 
-    public String getMail() {
-        return mail;
+    public String getEmail() {
+        return email;
     }
 
-    public void setMail(String mail) {
-        this.mail = mail;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     
